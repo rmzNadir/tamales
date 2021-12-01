@@ -20,10 +20,23 @@ verdadero(Pregunta):-(
 ).
 
 
-tamal(dulce):-    verdadero('Tiene un sabor dulce'),  verdadero('La gente rara le pone pasas'), verdadero('Es color rosa').
-tamal(nutella):-  verdadero('Tiene un sabor dulce'),  verdadero('Se consideraria gourmet'),     verdadero('Su relleno va bien con pan tostado').
-tamal(verde):-    verdadero('Tiene un sabor salado'), verdadero('Su relleno contiene chile'),   verdadero('Su relleno contiene carne de puerco').
-tamal(mole):-     verdadero('Tiene un sabor salado'), verdadero('Su relleno contiene chile'),   verdadero('Su relleno contiene carne de pollo').
+tamal(dulce):-              verdadero('Tiene un sabor dulce'),     verdadero('La gente rara le pone pasas'),                                  verdadero('Es color rosa').
+tamal(nutella):-            verdadero('Tiene un sabor dulce'),     verdadero('Se consideraria gourmet'),                                      verdadero('Su relleno va bien con pan tostado').
+tamal(verde):-              verdadero('Tiene un sabor salado'),    verdadero('Su relleno contiene chile'),                                    verdadero('Su relleno contiene carne de puerco').
+tamal(mole):-               verdadero('Tiene un sabor salado'),    verdadero('Su relleno contiene chile'),                                    verdadero('Su relleno contiene carne de pollo').
+tamal(tamarindo):-          verdadero('Tiene un sabor agridulce'), verdadero('Su relleno proviene de un fruto color cafe'),                   verdadero('Su relleno suele ser utilizado para hacer aguas de sabor').
+tamal(fresa):-              verdadero('Tiene un sabor dulce'),     verdadero('Su relleno proviene de un fruto color rojo/rosado'),            verdadero('Existe un personaje infantil en honor al fruto').
+tamal(elote):-              verdadero('Tiene un sabor dulce'),     verdadero('Es elaborado con una de las cosechas mas populares en Mexico'), verdadero('Es color amarillo').
+tamal(rajas):-              verdadero('Tiene un sabor salado'),    verdadero('Su relleno contiene chile'),                                    verdadero('Su relleno contiene queso'),                                 verdadero('Su relleno contiene salsa de jitomate').
+tamal(piedra):-             verdadero('Tiene un sabor salado'),    verdadero('Son envueltos en hojas de aguacate'),                           verdadero('No llevan manteca').
+tamal('cochinita pibil'):-  verdadero('Tiene un sabor salado'),    verdadero('Su relleno contiene carne de puerco'),                          verdadero('Su relleno es adobado en achiote'),                          verdadero('Su relleno es cocido en un horno de tierra').
+tamal(ranchero):-           verdadero('Tiene un sabor salado'),    verdadero('Su relleno contiene carne de puerco'),                          verdadero('Su relleno contiene chile'),                                 verdadero('Su relleno es sazonado con chile morita').
+tamal(canario):-            verdadero('Tiene un sabor dulce'),     verdadero('La gente rara el pone pasas'),                                  verdadero('Es color amarillo'),                                         verdadero('Su relleno contiene almendra').
+tamal(oaxaquenio):-         verdadero('Tiene un sabor salado'),    verdadero('Son envueltos en hojas de platano'),                            verdadero('Su relleno contiene carne de puerco'),                       verdadero('Su relleno contiene mole negro').
+tamal(pinia):-              verdadero('Tiene un sabor dulce'),     verdadero('Su relleno proviene de un fruto color amarillo'),               verdadero('Es la vivienda de cierto personaje con su mismo color').
+tamal(cajeta):-             verdadero('Tiene un sabor dulce'),     verdadero('Su relleno contiene leche'),                                    verdadero('Su relleno va bien con un pan tostado'),                     verdadero('Su relleno es color cafe').
+tamal(lechera):-            verdadero('Tiene un sabor dulce'),     verdadero('Su relleno contiene leche'),                                    verdadero('Su relleno va bien con un pan tostado'),                     verdadero('Su relleno es color blanco').
+
 
 test:-
   nl, nl,
